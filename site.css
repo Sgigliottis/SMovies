@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'ubuntu', sans-serif;
+    background-color: #000000;
+    overflow-x: hidden;
+}
+
+.navbar {
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0 , 0.1);
+}
+
+.navbar .navbar-brand {
+    color: #e50914;
+    font-weight: bold;
+}
+
+.navbar .nav-item .nav-link {
+    color: #e50914;
+}
+
+.scrolled {
+    background-color: #000000;
+}
+
+.caroussel-inner {
+    max-height: 100vh;
+}
+
+.caroussel-inner .carousel-item img{
+    max-height: 100vh;
+    object-fit: cover;
+}
+
+.caroussel-caption {
+    background:rgba(0, 0, 0, 0,5);
+    backdrop-filter:blur(5px);
+    width:100%;
+    left: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.caroussel-caption h3 {
+    color: #e50914;
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.caroussel-caption p {
+    color: #ffff;
+}
