@@ -19,7 +19,7 @@
     <!-- Começa aqui a NavBar -->
     <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">SMovies</a>
+            <a class="navbar-brand" href="index.html">GMovies</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -39,42 +39,34 @@
     </nav>
     <!-- Termina aqui a NavBar -->
 
-    <!-- Banner Start -->
-    <div class="container-fluid p-0">
-        <div id="carouselExampleCaptions" class="carousel slide carousel-dark carousel-fade" data-bs-ride="carousel">
-            <div class="carousel-inner">
-
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-
-        </div>
-    </div>
-    <!-- Banner End -->
-
-    <div class="container-fluid my-5 px-5">
-        <!-- Apresentação dos filmes em destaque -->
+    <div class="container-fluid mt-5 p-5">
+        <!-- Área com os detalhes do filmes -->
         <div class="row">
-            <h4 class="text-white">Filmes em Destaque</h4>
-            <div id="trendingMovies" class="rowposter mt-3 p-2">
-                
+            <div class="col-md-4">
+                <img src="" class="w-100 poster rounded-5">
             </div>
+            <div class="col-md-8 text-white" id="detalhes"></div>
         </div>
+
+        <!-- Área dos trailer -->
+        <div class="row my-5 text-white" id="trailer">
+            <h3 class="my-3">Trailer Oficial</h3>
+            <iframe src="" frameborder="0" width="100%" height="500"></iframe>
+        </div>
+
+        <!-- Área do Elenco -->
+        <div class="row my-5 text-white">
+            <h3 class="my-3">Elenco</h3>
+            <div class="row" id="elenco"></div>
+        </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
     <script src="js/site.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/detalhes.js"></script>
 </body>
 
 </html>

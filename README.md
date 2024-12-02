@@ -1,2 +1,2 @@
 # SMovies
-projeto de apresentação de filmes, desenvolvimento HTML/CSS/JAVASCRIPT
+Projeto de apresentação de informações de filmes, desenvolvimento em html/css/javascript
